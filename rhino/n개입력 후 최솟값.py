@@ -2,7 +2,7 @@ n = []
 
 while True:
     n.append(int(input()))
-    if input("계속입력: yes / 그만입력:no 입력 ") == "no":
+    if input("계속? y / n ") == "n":
         break
 
 mini = n[0]
