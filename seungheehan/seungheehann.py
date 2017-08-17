@@ -8,7 +8,7 @@ total = 0
 while i <= n:
     if i <= n:
       double = i*i
-      total = double + ii
+      total = total + double
       i = i + 1
     else:
         break
