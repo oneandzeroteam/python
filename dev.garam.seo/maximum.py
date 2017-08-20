@@ -13,6 +13,3 @@ for i in list :
 
 print (maximum)
 print (index)
-
-
-
