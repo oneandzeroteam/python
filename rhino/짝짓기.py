@@ -8,12 +8,12 @@ from itertools import combinations
 print(list(combinations(n,2)))
 '''
 
+for i in range(1,len(n)):
+    for j in range(i,len(n)):      
+            s = n[i-1] + "-" + n[j]
+            result.append(s)
+
+
 print(n)
-
-for i in range(0,len(n)):
-    for j in range(0,len(n)):
-            if n.index(n[i]) > n.index(n[j]):
-                s = n[i] + "-" + n[j]
-                result.append(s)
-
 print(result)
+
